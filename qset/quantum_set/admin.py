@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import QuantumStateCard, QuantumOperationCard
 
-# Register your models here.
+admin.site.register(QuantumStateCard)
+admin.site.register(QuantumOperationCard)
