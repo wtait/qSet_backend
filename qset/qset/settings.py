@@ -84,7 +84,7 @@ DATABASES = {
 
 # Graphene
 GRAPHENE = {
-    'SCHEMA': 'quantum_set.schema.schema'
+    'SCHEMA': 'qset.schema.schema'
 }
 
 
